@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:labelFor="@+id/seek_bar"
+        style="@style/VolumeLevel_Title"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        tools:text="Dark Mode" />
+
+    <TextView
+        android:id="@+id/activate_state"
+        style="@style/VolumeLevel_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/title"
+        android:layout_alignTop="@+id/title"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        tools:text="Booster Activate" />
+
+    <Switch
+        android:id="@+id/dark_theme_switcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_below="@+id/title"
+        android:minHeight="48dp"
+        android:thumb="@drawable/customswitchselecter"
+        android:track="@drawable/customtrack" />
+
+
+
+    <Switch
+        android:id="@+id/notification_widget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="@string/off"
+        android:textOn="@string/on"
+        android:layout_below="@+id/activate_state"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:thumb="@drawable/customswitchselecter"
+        android:track="@drawable/customtrack" />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

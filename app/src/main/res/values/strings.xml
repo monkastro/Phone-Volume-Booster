@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">volume booster</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="admob_showIntersitial_ad_unit_id">ca-app-pub-4509296003390665/3631361311</string>
+
+    <string name="maximum_allowed_boost">Maximum allowed boost</string>
+
+    <string name="notification_bar">Setup Notification</string>
+
+    <string name="soft_boost">Soft Volume Boost</string>
+
+    <string name="about_app">About App</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="share_app">Share App</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="extra_volume_sound_booster_help_you_to_incraese_normal_phone_volume_to_extra_volume">Extra volume :- sound booster help you to incraese normal phone volume to extra volume.</string>
+
+
+
+    <string name="main_menu_silence">Silence</string>
+    <string name="main_menu_silence_off">Full volume</string>
+    <string name="btn_apply_profile">Apply</string>
+    <string name="btn_delete_profile">Delete</string>
+    <string name="new_profile_add">Add new</string>
+    <string name="volumeType_alarm">⏰Alarm</string>
+    <string name="volumeType_media">🎥Media</string>
+    <string name="volumeType_voiceCall">📞Voice call</string>
+    <string name="volumeType_ring">🔔Ring(Notification)</string>
+    <string name="volumeType_notifications">Notification</string>
+    <string name="volumeType_systemSounds">System sounds</string>
+    <string name="volumeType_dtmf">DTMF tokens</string>
+    <string name="volumeType_accessibility">Accessibility</string>
+    <string name="defaultProfileName">Profile</string>
+    <string name="volume_profile_screen_title">Volume profile</string>
+    <string name="volume_profile_screen_hint">Save sound profile to apply it later. Profiles are saved as the app launcher icon shortcuts and on the app main page.</string>
+    <string name="volume_profile_name_placeholder">Profile name</string>
+    <string name="save">Save</string>
+    <string name="main_screen_current_volume_title">Current volume</string>
+    <string name="main_screen_profiles_title">Sound profiles</string>
+    <string name="settings">Settings</string>
+    <string name="settings_darktheme">Dark theme</string>
+    <string name="settings_extended_volume_settings">Extended volume settings</string>
+    <string name="settings_android_sound_settings">Android sound settings</string>
+    <string name="rate_this_app">Rate app</string>
+    <string name="vibrate_mode">Vibrate mode</string>
+    <string name="silence">Silence</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="ring">Ring</string>
+    <string name="notification_widget">Click to open app Booster</string>
+    <string name="notification_widget_featured">Click to open app</string>
+
+    <string name="settings_notification_widget">Notification widget</string>
+    <string name="settings_notification_widget_profiles">Show profiles in notification widget</string>
+
+    <string name="dnd_permission_title">The app requires access to the "Do Not Disturb" permission</string>
+    <string name="dnd_permission_message">This permission is required To Run The Application In Background To Boost Volume</string>
+    <string name="volume_types_in_widget">Volume types in widget</string>
+
+    <string-array name="vibrate_settings">
+        <item>Always on</item>
+        <item>Always off</item>
+        <item>Only in silent mode</item>
+    </string-array>
+
+
+
+    <string name="delete_profile_button">Delete %1$s profile</string>
+    <string name="apply_profile_button">Delete %1$s profile</string>
+
+    <string name="volume_switch">%1$s volume type level</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Help You To watch movies with Loud.</string>
+    <string name="slide_1_desc">Enjoy your Favorite Movies with High Quality Sound Without Ear/Headphone</string>
+
+    <string name="slide_2_title">All Media Supported</string>
+    <string name="slide_2_desc">Work With All Sound in Phone.</string>
+
+    <string name="slide_3_title">Great Alternative For Sound Booster</string>
+    <string name="slide_3_desc">Improve Sound Of Any Media Player or Online(Netflix,YouTUbe etc)</string>
+
+    <string name="slide_4_title">Just Activate Booster!</string>
+    <string name="slide_4_desc">No Extra Permission Required Just Active The Magic.</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+
+</resources>

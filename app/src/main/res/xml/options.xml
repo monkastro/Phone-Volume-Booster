@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:title="@string/soft_boost"
+        android:key="shape"
+        android:defaultValue="true" />
+    <ListPreference
+        android:entries="@array/maximum_boost_labels"
+        android:title="@string/maximum_allowed_boost"
+        android:key="maximumBoost2"
+        android:defaultValue="60"
+        android:entryValues="@array/maximum_boosts" />
+</PreferenceScreen>

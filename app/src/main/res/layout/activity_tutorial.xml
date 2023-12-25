@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B2D5B"
+    tools:context=".Tutorial">
+
+    <TextView
+        android:id="@+id/tt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How To Use Guide"
+        android:textColor="#FFFF"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="369dp"
+        android:layout_below="@+id/tt"
+
+        android:layout_marginTop="-1dp"
+        app:srcCompat="@drawable/turorial" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/imageView4"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/step1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 1 : Set max/min Volume using slider"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            />
+        <TextView
+            android:id="@+id/step2"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 2 : Set max/min Booster using slider. Maximum recomemded Boost 40%"
+            android:gravity="center"
+            android:layout_below="@+id/step1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            />
+        <TextView
+            android:id="@+id/step3"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 3 : Check Notice"
+            android:gravity="center"
+            android:layout_below="@+id/step2"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            />
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 4 : Customize application according to your need inside settings. "
+            android:gravity="center"
+            android:layout_below="@+id/step3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
